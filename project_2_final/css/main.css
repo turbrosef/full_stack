@@ -1,0 +1,96 @@
+/* Main CSS */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "PT Serif", serif;
+}
+
+h2 {
+  color: #bcbbbb;
+  font-weight: bold;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: #dbb749;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+p {
+  color: blue;
+}
+
+.font-picture {
+  font-size: 5vw;
+}
+
+.header-img-size {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.main-picture-container {
+  margin: auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.center-img-main {
+  margin: auto;
+  max-width: 50%;
+  max-height: 100%;
+}
+
+.center-img {
+  margin: auto;
+}
+
+.text-center {
+  text-align: center
+}
+
+.text-pt-serif {
+  font-family: "PT Serif", serif;
+}
+
+
+.text-outlined-black {
+  -webkit-text-stroke: 0.05em black;
+}
+
+.text-shadow {
+  text-shadow:
+  3px 3px 0 #000,
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+
+.brown-background {
+  background: #4c3c20;
+}
+
+.green-background {
+  background: #325541;
+}
+
+.text-yellow {
+  color: #dbb749;
+}
+
+.toupe-background {
+  background: #a08e5a;
+}

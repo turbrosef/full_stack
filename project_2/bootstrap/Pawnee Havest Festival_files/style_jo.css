@@ -1,0 +1,104 @@
+/* CSS Document */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+font-family: 'PT Serif', serif;
+}
+
+h2 {
+  color: #BCBBBB;
+  font-weight: bold;   
+}
+
+h3 {
+  text-transform: uppercase;
+  color: #dbb749;
+  text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+p {
+  color: #BCBBBB;
+}
+
+.text-pt-serif {
+  font-family: 'PT Serif', serif;
+}
+
+.text-outlined-red {
+  -webkit-text-stroke: .05em #a6393c;
+}
+
+.text-outlined-black {
+  -webkit-text-stroke: .05em black;
+}
+
+.text-muted {
+  color: #BCBBBB;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.title-super {
+  font-size: 60px;
+}
+
+.title-logo {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.heading {
+  border-bottom: 3px solid #BCBBBB;
+  margin-bottom: 30px;
+}
+
+.center-img {
+  margin: 0 auto;
+  width: 500px;
+  max-width: 100%
+  max-height: 100%
+  height: 400px;
+}
+
+.img-row-3 {
+  height: 50%;
+}
+
+.brown-background {
+  background-color: #4c3c20;
+}
+
+.green-background {
+  background-color: #325541;
+}
+
+.text-yellow {
+  background-color: #dbb749;
+}
+
+.toupe-background {
+  background-color: #a08e5a;
+}
